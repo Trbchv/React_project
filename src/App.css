@@ -1,0 +1,147 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Raleway', sans-serif;
+}
+body{
+    height: 100vh;
+}
+header{
+    background-color: #282828;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+nav{
+    width: 80%;
+}
+.nav-list{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    width: 100%;
+}
+.nav-list>li{
+    color: white;
+    text-decoration: none;
+    list-style-type: none;
+}
+.nav-a{
+    color: white;
+    text-decoration: none;
+}
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+    padding-top: 30px;
+    min-height: 100vh;
+    background-color: #3c3c3c;
+}
+.card-wrapper{
+    width: 80%;
+}
+.card{
+    color: #ffffff;
+    width: 500px;
+    height: 50px;
+    padding: 10px;
+    margin-top: 10px;
+    background-color: #282828;
+}
+.btn-wrapper{
+    height: 300px;
+    width: 80px;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    flex-direction: column;
+    position: absolute;
+    right: 10px;
+    bottom: 15px;
+}
+.btn-wrapper> div {
+    display: flex;
+    position: absolute;
+    background-color: #121212;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    transition: 0.4s;
+}
+.btn-wrapper> .main-btn{
+    width: 60px;
+    height: 60px;
+}
+.first-btn{
+    height: 50px;
+    width: 50px;
+}
+.second-btn{
+    height: 50px;
+    width: 50px;
+}
+.third-btn{
+    height: 50px;
+    width: 50px;
+}
+.main-btn{
+    transition: 0.4s;
+}
+.main-btn:hover{
+    cursor: pointer;
+}
+.open{
+    rotate: 45deg;
+}
+.first-part-X{
+    background-color: white;
+    height: 30px;
+    width: 2px;
+    position: absolute;
+}
+.second-part-X{
+    background-color: white;
+    height: 30px;
+    width: 2px;
+    position: absolute;
+    rotate: 90deg;
+}
+.comp-btn{
+    height: 20px;
+    width: 90px;
+}
+.square{
+    height: 40px;
+    width: 40px;
+    color: #dcdada;
+    background-color: #676f7f;
+    border: 1px solid #91919f;
+    transition: 0.1s;
+}
+.square:hover{
+    border: 1px solid #c3c3c7;
+}
+.square:active{
+    border: 1px solid #fcfcfc;
+
+}
+.board-row{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.status{
+    color: white;
+}
+.btn-img-wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.btn-image{
+    width: 65%;
+}
